@@ -5,75 +5,122 @@
 
 body {
     font-size: 16px;
-    text-align: center;
     background-color: hsl(30, 54%, 90%);
 }
 
-.first_image {
-    border: 2px solid #fff;
-    border-radius: 1rem;
+.border {
+    border: 2px solid hsl(30, 54%, 90%);
+    min-height: 500px;
     max-width: 50%;
-    min-height: 90vh;
-    margin: 2.5rem auto 0;
-    background-color: hsl(330, 100%, 98%);
+    margin: 7rem auto 6rem;
+    border-radius: 1.1rem;
+    background-color: #fff;
 }
 
-div img {
+img {
+    min-height: 200px;
     max-width: 90%;
-    max-height: 20%;
+    margin: 25px 5% 0;
     border-radius: 0.5rem;
-    margin: 1.2rem 0 0.5rem;
 }
 
-div h1 {
-    color: hsl(24, 5%, 18%);
-    text-align: left;
-    margin-left: 1.2rem;
+.margin {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-div p {
-    text-align: left;
-    margin-left: 1.2rem
+h1 {
+    margin: 0.8rem 0 0.8rem;
+    color: hsl(24, 5%, 18%)
 }
 
-.unordered {
-    border: 2px solid hsl(330, 100%, 98%);
-    border-radius: 0.3rem;
-    background-color: rgba(255, 192, 203, 0.153);
-    text-align: left;
+p {
+    color: hsl(30, 10%, 34%);
 }
 
-h3 {
+.inner_border {
+    border: 2px solid rgba(243, 230, 216, 0.632);
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    background-color: rgba(243, 230, 216, 0.632);
+}
+
+.inner_border h3 {
+    margin: 0.5rem 1.5rem 0.5rem;
     color: hsl(332, 51%, 32%);
-    margin-left: 2rem;
 }
 
-.grey {
-    color:hsl(30, 10%, 34%);
-}
-
-.first_unordered {
-    margin-left: 50px;
-    padding-left: 20px;
+.inner_border ul li {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    list-style-position: inside;
 }
 
 h2 {
-    text-align: left;
-    margin: 1rem;
     color: hsl(14, 45%, 36%);
 }
 
-
-.another ul{
+.margin ul li {
+    padding-left: 1rem;
+    margin-top: 0.7rem;
 }
+
+.margin ul {
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin-bottom: 1.2rem;
+    width: 85%;
+    margin-left: 6.7%;
+}
+
+.second_h2 ol {
+    list-style-position: inside;
+    margin-bottom: 1.5rem;
+}
+
+.second_h2 h2 {
+    margin-bottom: 0.6rem;
+}
+
+.second_h2 ol li {
+    margin-top: 0.7rem;
+}
+
+.last_h2 {
+    margin-top: 1rem;
+}
+
+.last_h2, .margin h2 {
+    margin-bottom: 0.5rem;
+}
+
+.last_h2, .margin ul {
+    list-style-type: none;
+}
+
+.last_h2, .margin ul hr{
+    margin-top: 1rem;
+}
+
+.last_h2, .margin p {
+    padding-bottom: 1rem;
+}
+
+.under_nutrition {
+    padding-left: 30%;
+    color: hsl(14, 45%, 36%);
+}
+
 /* 
 body{
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%); border-background
     color: hsl(330, 100%, 98%);
-    color: hsl(30, 54%, 90%);
-    color: hsl(30, 18%, 87%);
-    color: hsl(30, 10%, 34%);
-    color: hsl(24, 5%, 18%);
-    color: hsl(14, 45%, 36%);
-    color: hsl(332, 51%, 32%);
+    color: hsl(30, 54%, 90%); background color
+    color: hsl(30, 18%, 87%); nutrition text
+    color: hsl(30, 10%, 34%); paragraph text
+    color: hsl(24, 5%, 18%); h1 heading
+    color: hsl(14, 45%, 36%); h2 headings
+    color: hsl(332, 51%, 32%); h3 heading
 } */
