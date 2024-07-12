@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    text-align: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.first_image {
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    max-width: 50%;
+    min-height: 90vh;
+    margin: 2.5rem auto 0;
+    background-color: hsl(330, 100%, 98%);
+}
+
+div img {
+    max-width: 90%;
+    max-height: 20%;
+    border-radius: 0.5rem;
+    margin: 1.2rem 0 0.5rem;
+}
+
+div h1 {
+    color: hsl(24, 5%, 18%);
+    text-align: left;
+    margin-left: 1.2rem;
+}
+
+div p {
+    text-align: left;
+    margin-left: 1.2rem
+}
+
+.unordered {
+    border: 2px solid hsl(330, 100%, 98%);
+    border-radius: 0.3rem;
+    background-color: rgba(255, 192, 203, 0.153);
+    text-align: left;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin-left: 2rem;
+}
+
+.grey {
+    color:hsl(30, 10%, 34%);
+}
+
+.first_unordered {
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+h2 {
+    text-align: left;
+    margin: 1rem;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.another ul{
+}
+/* 
+body{
+    color: hsl(0, 0%, 100%);
+    color: hsl(330, 100%, 98%);
+    color: hsl(30, 54%, 90%);
+    color: hsl(30, 18%, 87%);
+    color: hsl(30, 10%, 34%);
+    color: hsl(24, 5%, 18%);
+    color: hsl(14, 45%, 36%);
+    color: hsl(332, 51%, 32%);
+} */
